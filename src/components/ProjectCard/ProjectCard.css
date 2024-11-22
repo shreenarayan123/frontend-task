@@ -1,0 +1,65 @@
+.thread-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 480px;
+  height: 580px;
+  top: 75px;
+  border-radius: 15px;
+  background: #fdfdfd;
+  box-shadow: 1px 1px 4px 2px #00000040;
+}
+.thread-card .c-title {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  color: #fdfdfd;
+  background: #000000;
+  width: 480px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px 15px 0px 0px;
+}
+.thread-card .c-title .info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  font-family: Poly;
+  font-size: 16px;
+  font-weight: 400;
+  left: 80px;
+  line-height: 19.01px;
+  letter-spacing: 0.02em;
+  background: #fcfbfb;
+  color: #000000;
+}
+.thread-card .c-description {
+  width: 480px;
+  height: 86px;
+  padding:25px 10px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+.thread-card .c-description span {
+  font-weight: 600;
+}
+.thread-card .video iframe{
+  width: 480px;
+height: 291px;
+
+}

@@ -1,0 +1,24 @@
+.more {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    padding-bottom:20px ;
+    position: absolute;
+    right: 30px;
+    bottom: -340px;
+    background-color: #fff;
+  }
+  .more .more-options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 85px;
+height: 85px;
+top: 1490px;
+left: 1303px;
+gap: 0px;
+opacity: 0px;
+background: #0029FF;
+border-radius: 50%;
+  }

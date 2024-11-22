@@ -1,0 +1,176 @@
+.thread-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 480px;
+  height: 580px;
+  top: 75px;
+  border-radius: 15px;
+  background: #fdfdfd;
+  box-shadow: 1px 1px 4px 2px #00000040;
+}
+.thread-card .t-title {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  color: #fdfdfd;
+  background: #000000;
+  width: 480px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px 15px 0px 0px;
+}
+.thread-card .t-title .information {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  font-family: Poly;
+  font-size: 16px;
+  font-weight: 400;
+  left: 110px;
+  line-height: 19.01px;
+  letter-spacing: 0.02em;
+  background: #fcfbfb;
+  color: #000000;
+}
+.thread-card .threadcard-description {
+  width: 480px;
+  height: 131px;
+  padding: 30px 10px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+}
+.thread-card .threadcard-description span {
+  font-weight: 600;
+}
+.thread-card .body {
+  width: 479px;
+  height: 399px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-top: 20px;
+  border-radius: 0px 0px 15px 15px;
+  border: 1px 0px 0px 0px;
+  border: 1px solid #d1cece;
+}
+.thread-card .body .body-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.thread-card .body .body-title span {
+  
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+}
+.thread-card .body .body-title .title-input {
+  width: 422px;
+  height: 43px;
+  padding: 5px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  box-shadow: -2px 2px 6px 0px #00000026;
+}
+.thread-card .body .body-title .title-input input {
+  border: none;
+  outline: none;
+}
+.thread-card .body .content-t {
+  width: 422px;
+  height: 222px;
+  display: flex;
+  flex-direction: column;
+  
+}
+.thread-card .body .content-t .content-title {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  padding-bottom: 14px;
+}
+.thread-card .body .content-t .content-options {
+  width: 422px;
+  height: 82px;
+  gap: 0px;
+  border-radius: 5px 5px 0px 0px;
+  opacity: 0px;
+  box-shadow: 0px 2px 10px 0px #0000002E;
+  background: #FCFBFB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px 5px 0px 0px;
+
+}
+.thread-card .body .content-t .content-options .file-options {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
+  font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #616161;
+
+}
+.thread-card .body .content-t .content-options .content-actions {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  width: 100%;
+  padding-right: 80px;
+}
+.thread-card .body .content-t .content-options .content-actions .paragraph{
+  width: 102px;
+height: 18px;
+top: 1436px;
+left: 361px;
+background: #EBEBEB;
+font-family: Poppins;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.02em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #616161;
+}
+.thread-card .body .content-input {
+  width: 422px;
+  height: 142px;
+  padding: 5px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  box-shadow: -2px 2px 6px 0px #00000026;
+}
+.thread-card .body .content-input input {
+  border: none;
+  outline: none;
+}

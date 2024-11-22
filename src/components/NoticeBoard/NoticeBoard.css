@@ -1,0 +1,47 @@
+.noticeboard {
+  width: 95px;
+  height: 394px;
+  border-radius: 30px 0px 0px 30px;
+  overflow: hidden;
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 99;
+  box-shadow: 0px 1px 1px 0px #00000040;
+  background-color: #fff;
+}
+
+.noticeboard .notice-section {
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+  background-color: #000; /* Black background */
+  color: #fff; /* White text */
+  width: 50px;
+height: 394px;
+border-radius: 30px 0px 0px 0px;
+angle: 90 deg;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* Space out the close icon and text */
+  padding: 20px 0; /* Spacing around the container */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for elevation */
+}
+
+.noticeboard .notice-section i {
+  font-size: 34px; /* Size of the close icon */
+  cursor: pointer;
+}
+
+.noticeboard .notice-section .vertical-text {
+  writing-mode: vertical-rl; /* Rotate text vertically */
+  text-orientation: upright; /* Keep letters upright */
+  font-size: 16px;
+  letter-spacing: 2px; /* Spacing between letters */
+  text-align: center;
+}

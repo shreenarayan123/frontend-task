@@ -1,0 +1,254 @@
+.thread-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 480px;
+  height: 580px;
+  top: 75px;
+  border-radius: 15px;
+  background: #fdfdfd;
+  box-shadow: 1px 1px 4px 2px #00000040;
+}
+.thread-card .t-title {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  color: #fdfdfd;
+  background: #000000;
+  width: 480px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px 15px 0px 0px;
+}
+.thread-card .t-title .info {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 19px;
+  height: 19px;
+  border-radius: 50%;
+  font-family: Poly;
+  font-size: 16px;
+  font-weight: 400;
+  left: 150px;
+  line-height: 19.01px;
+  letter-spacing: 0.02em;
+  background: #fcfbfb;
+  color: #000000;
+}
+.thread-card .t-description {
+  width: 480px;
+  height: 86px;
+  padding: 25px 10px;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.79px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  box-shadow: 0px 1px 1px 0px #00000040;
+  background: #fdfdfd;
+}
+.thread-card .thread-a {
+  width: 478px;
+  height: 40px;
+  border: 0.1px 0px 0px 0px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27.24px;
+  display: flex;
+  align-items: center;
+  gap: 71.65px;
+  padding-left: 11px;
+  justify-content: start;
+  color: #000000;
+  border: 0.1px solid #00000066;
+}
+.thread-card .thread-a i{
+  cursor: pointer;
+}
+.thread-card .t-description span {
+  font-weight: 600;
+}
+.thread-card .thread-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+.thread-card .sub-thread {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  height: 147px;
+  padding-top: 24px;
+  padding-bottom: 22px;
+}
+.thread-card .sub-thread .sub-t1 {
+  width: 199px;
+  height: 95px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  position: relative;
+}
+.thread-card .sub-thread .sub-t1 .sub-title {
+  width: 199px;
+  height: 65px;
+  border-radius: 10px;
+  border: 0.1px 0px 0px px;
+  opacity: 0.5px;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+  text-align: left;
+  border: 0.1px solid #adaaaa;
+  background: #0000000d;
+  box-shadow: 1px 3px 8px 0px #00000040;
+  color: #000000;
+  padding: 5px;
+}
+.thread-card .sub-thread .sub-t1 .sub-input {
+  width: 199px;
+  height: 70px;
+  border-radius: 10px;
+  border: 0.1px solid #c1bebe;
+  opacity: 0px;
+  position: absolute;
+  top: 25px;
+  background: #fcfbfb;
+  padding-left: 5px;
+}
+.thread-card .sub-thread .sub-t1 .sub-input input,
+input::placeholder {
+  color: #6c757d;
+  border: none;
+  background: #fafafa;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+}
+.thread-card .thread-options {
+  display: flex;
+  flex-direction: column;
+  gap: 26.51px;
+}
+.thread-card .thread-options .t-options {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  padding-left: 80px;
+  padding-top: 10px;
+}
+.thread-card .thread-options .t-options .t-icons {
+  display: flex;
+  align-items: center;
+  width: 117.49px;
+  height: 20px;
+  opacity: 0px;
+
+  gap: 10.7px;
+}
+.thread-card .thread-options .t-options .t-icons img {
+  height: 20px;
+}
+.thread-card .thread-options .t-selection {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.thread-card .thread-options .t-selection .selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  box-shadow: 1px 3px 8px 0px #00000040;
+  border-radius: 8px;
+  width: 91px;
+  height: 32px;
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 15px;
+}
+.thread-card .t-add{
+  font-family: Roboto;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.06px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 5px;
+color: white;
+  width: 97px;
+height: 36px;
+background-color: #0029ff;
+border-radius: 9px;
+}
+.thread-card  .sub-t1 {
+  width: 425px;
+  height: 108px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+  position: relative;
+}
+.thread-card  .sub-t1 .sub-title {
+  
+height: 65px;
+border-radius: 10px 0px 0px 0px;
+border: 0.1px 0px 0px 0px;
+opacity: 0.5px;
+
+  border-radius: 10px;
+  border: 0.1px 0px 0px px;
+  opacity: 0.5px;
+  font-family: Open Sans;
+font-size: 12px;
+font-weight: 400;
+line-height: 16.34px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+  text-align: left;
+  border: 0.1px solid #adaaaa;
+  background: #0000000d;
+  box-shadow: 1px 3px 8px 0px #00000040;
+  color: #000000;
+  padding: 5px;
+}
+.thread-card  .sub-t1 .sub-input {
+  width: 425px;
+ height: 83px;
+  border-radius: 10px;
+  border: 0.1px solid #c1bebe;
+  opacity: 0px;
+  position: absolute;
+  top: 25px;
+  background: #fcfbfb;
+  padding-left: 5px;
+}
+.thread-card  .sub-t1 .sub-input input,
+input::placeholder {
+  color: #6c757d;
+  border:none;
+  outline: none;
+  background: #fafafa;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16.34px;
+}
